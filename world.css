@@ -1,1 +1,58 @@
-/* Add your own styles */
+header{
+    background-color: #6b43c6;
+    color: #ffffff;
+    padding: 15px;
+    border-radius: 4px;
+    margin: auto;
+    width: 85%;
+    text-align: center;
+    font: 100% Lucida Sans, Verdana;
+    font-size: 2.25em
+    
+}
+
+main{
+    background-color: #cac8ce;
+    color: #000000;
+    padding: 15px;
+    margin: auto;
+    border-radius: 4px;
+    width: 85%;
+    height: auto;
+}
+
+#controls{
+    border-bottom: 1px solid #e9e8ed;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#controls label{
+    font-weight: bolder;
+}
+
+#controls button{
+    font-size: 16px;
+    padding: 6px;
+}
+
+#result{
+    font-size: 1.25em;
+    color: #000000;
+}
+
+.searchArea h3{
+    font-weight: bolder;
+    font-family: Lucida Sans, Verdana;;
+}
+
+input{
+    width:90%;
+    height:30px;
+    margin-top:10px;
+    border-radius:3px;
+    padding:2px;
+    box-shadow:0px 1px 1px 0px darkgray;
+}    
