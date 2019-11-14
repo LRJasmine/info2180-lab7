@@ -5,7 +5,7 @@ var searchBtn;
 var url ="https://ad26eb2a119e43e89b202de5e7b4bd28.vfs.cloud9.us-east-1.amazonaws.com/world.php";
 window.onload = function (){
     httpRequest = new XMLHttpRequest();
-    searchBtn = document.getElementsByClassName("lookup")[0];
+    searchBtn = document.getElementById("lookup");
     searchBtn.addEventListener("click", processing); 
     
     function processing(event){
