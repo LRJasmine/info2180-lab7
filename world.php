@@ -16,7 +16,7 @@ $conn = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8mb4", $username, $p
         $results = $stmt->fetchAll(PDO::FETCH_ASSOC);?>
         
         
-        <table border = '2'>
+        <table border = '2' bgcolor = "white">
         <tr>
             <th>Country Name</th>
             <th>Continent</th>
@@ -42,8 +42,9 @@ $conn = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8mb4", $username, $p
       }else{
         $stmt = $conn->query("SELECT * FROM countries");
         $results = $stmt->fetchAll(PDO::FETCH_ASSOC);?>
-        <table border = '2'>
-        <tr>
+        
+        <table border = '2' bgcolor = "white">
+        <tr bgcolor = "skyblue">
             <th>Country Name</th>
             <th>Continent</th>
             <th>Independence Year</th>
